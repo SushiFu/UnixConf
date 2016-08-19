@@ -1,0 +1,27 @@
+" l = awesome bar, s = search key
+set complete=sl
+set wildmode=list:full
+
+colorscheme indigo-fx3
+
+set gui=addons,nobookmarks,nomenu,navigation,tabs
+
+set nextpattern=\bnext|suivant\b,^>$,^(>>|»)$,^(>|»),(>|»)$,\bmore\b
+set previouspattern=\bprev|previous|précédent\b,^<$,^(<<|«)$,^(<|«),(<|«)$
+
+set newtab=all
+
+map ga :bmark -folder 
+map B :bmarks! 
+
+noremap K gt
+noremap J gT
+
+map <C-j> :tabm -1<CR>
+map <C-k> :tabm +1<CR>
+
+set focuscontent
+set noinsertmode
+
+" Get my damn focus back
+"autocmd PageLoad .* :normal <Esc>

@@ -1,0 +1,9 @@
+[user]
+    email = SushiFu@gmx.fr
+    name = Seiji Fouquet
+[push]
+    default = simple
+[core]
+    excludesfile = /Users/SushiFu/.gitignore
+[mergetool]
+    keepBackup = false

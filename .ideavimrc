@@ -1,0 +1,5 @@
+" Use system clipboard
+set clipboard=unnamed
+
+" Set 10 lines to the cursor - when moving vertically using j/k
+set so=10
